@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "40339eb645a14dc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b2f9fbf8067cbc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ffb8eef8e87e9c0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8bb48b9f510a5b99",
+    "type": "split",
+    "children": [
+      {
+        "id": "832ae729378db0fa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1be699de81f71074",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a9e921978a40dfd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f34ed582633321e0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "09a64064e082fa9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ad4a63e97bc7956",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f302aad57ee4dce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f73a24c7b085f24b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f6b80efa75feaf67",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6c4544c13a6872ec",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "ca4c62182f9c338e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "817bf0d95567755c",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "1be699de81f71074",
+  "lastOpenFiles": [
+    "05-工作/nebula200/images/Pasted image 20230522193102.png",
+    "05-工作/nebula200/images/0-pipeline.excalidraw.md",
+    "05-工作/nebula200/misc",
+    "05-工作/nebula200/images",
+    "05-工作/nebula200/001-适配dsp接口.md",
+    "05-工作/nebula200/000-滤波算法改进.md",
+    "05-工作/nebula200",
+    "05-工作/aurora930",
+    "05-工作",
+    "02-个人/private/郭虎威简历.md",
+    "02-个人/private",
+    "01-周报/2023-W20.md",
+    "04-模板",
+    "2023-05-21.md",
+    "03-学习",
+    "02-个人",
+    "01-周报",
+    "Untitled.canvas"
+  ]
+}
