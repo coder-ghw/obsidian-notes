@@ -2,8 +2,8 @@
   "calendar",
   "table-editor-obsidian",
   "dataview",
-  "obsidian-excalidraw-plugin",
   "obsidian-excel-to-markdown-table",
   "meld-encrypt",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "obsidian-excalidraw-plugin"
 ]

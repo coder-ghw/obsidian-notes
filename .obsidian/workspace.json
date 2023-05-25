@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "56bf2ac193697317",
+        "id": "c2b1b2afebca2a20",
         "type": "tabs",
         "children": [
           {
-            "id": "03b5cadb31042cdb",
+            "id": "41cf1ea8ccae107e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,19 +115,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl.md"
-              }
+              "state": {}
             }
           },
           {
             "id": "b5a0fdeaf46ed715",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
+              "state": {}
             }
           }
         ],
@@ -166,11 +156,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 775.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -179,20 +169,44 @@
       "command-palette:打开命令面板": false,
       "workspaces:管理工作区布局": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "meld-encrypt:Create new encrypted note": false
+      "meld-encrypt:Create new encrypted note": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "03b5cadb31042cdb",
+  "active": "41cf1ea8ccae107e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-05-25 11.31.54.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-25 11.28.27.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-25 11.20.10.excalidraw.md",
     "02-学习/02-性能/00-ArmNeon.md",
+    "03-工作/nebula200/002-ncc neon 优化.md",
+    "03-工作/nebula200/images/1-ncc_neon.excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
+    "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.md",
+    "03-工作/nebula200/001-适配dsp接口.md",
+    "05-days/2023-05-25.md",
+    "03-工作/nebula200/images/Pasted Image 20230525104712_734.png",
+    "03-工作/nebula200/images/Pasted image 20230522193102.png",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Excalidraw/Scripts/Downloaded/Organic Line.svg",
+    "Excalidraw/Scripts/Downloaded/Organic Line.md",
+    "Excalidraw/Scripts/Downloaded/Palette loader.svg",
+    "Excalidraw/Scripts/Downloaded/Palette loader.md",
+    "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.svg",
+    "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.md",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
+    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw",
+    "03-工作/nebula200/000-滤波算法改进.md",
     "02-学习/00-cv3d/00-pcl/pcl.md",
     "02-学习/00-cv3d/00-pcl",
-    "05-days/2023-05-25.md",
     "04-临时",
     "00-模板",
     "05-days/2023-05-24.md",
     "05-days/2023-05-23.md",
-    "03-工作/nebula200/000-滤波算法改进.md",
     "02-学习/03-cvdl",
     "02-学习/02-性能",
     "02-学习/01-cv2d",
@@ -201,25 +215,11 @@
     "05-工作/nebula200/images/Pasted image 20230522193102.png",
     "05-工作/nebula200/images/0-pipeline.excalidraw.md",
     "05-工作/nebula200/images",
-    "05-工作/nebula200",
-    "05-工作",
     "02-学习/02-优化/00-ArmNeon.md",
-    "03-工作/nebula200/images/0-pipeline.excalidraw.md.partial",
     "02-学习/00-cv3d/03-pcl/03-Filter Removing outliers.md",
     "02-学习/00-cv3d/03-pcl/01-Filter a point cloud using a PassThrough filter.md",
     "02-学习/00-cv3d/03-pcl/02-Filter downsample point cloud.md",
     "02-学习/00-cv3d/03-pcl/00-Adding your own custom PointT type.md",
-    "02-学习/00-cv3d/03-pcl/pcl.md",
-    "03-工作/nebula200/001-适配dsp接口.md",
-    "01-周报/2023-W22.md",
-    "01-周报/2023-W21.md",
-    "未命名.md",
-    "04-模板/day_tpl.md",
-    "01-周报/2023-W20.md",
-    "03-工作/nebula200/images/0-pipeline.excalidraw.md",
-    "00-临时/郭虎威简历.md",
-    "03-工作/nebula200/images/Pasted image 20230522193102.png",
-    "2023-05-21.md",
     "Untitled.canvas"
   ]
 }

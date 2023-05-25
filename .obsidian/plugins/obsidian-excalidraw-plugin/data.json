@@ -19,7 +19,7 @@
   "width": "400",
   "dynamicStyling": "colorful",
   "isLeftHanded": false,
-  "matchTheme": false,
+  "matchTheme": true,
   "matchThemeAlways": false,
   "matchThemeTrigger": false,
   "defaultMode": "normal",
