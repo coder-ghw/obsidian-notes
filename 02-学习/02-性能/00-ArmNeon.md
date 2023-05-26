@@ -1203,9 +1203,9 @@ uint16x8_t vornq_u16 (uint16x8_t __a, uint16x8_t __b);
 uint32x4_t vornq_u32 (uint32x4_t __a, uint32x4_t __b);  
 uint64x2_t vornq_u64 (uint64x2_t __a, uint64x2_t __b);  
 /****************************************Count leading sign bits************************/  
-/*--正常指令, vcls -> ; counts the number of consecutive bits, starting from the most  
-significant bit,that are the same as the most significant bit, in each element in a  
-vector, and places the count in the result vector.--*/  
+/*--正常指令, vcls -> ;
+计算向量中每个元素从最高位开始与最高位相同的连续比特数，并将计数放置在结果向量中。
+--*/  
 int8x8_t vcls_s8 (int8x8_t __a);  
 int16x4_t vcls_s16 (int16x4_t __a);  
 int32x2_t vcls_s32 (int32x2_t __a);  
@@ -1213,8 +1213,9 @@ int8x16_t vclsq_s8 (int8x16_t __a);
 int16x8_t vclsq_s16 (int16x8_t __a);  
 int32x4_t vclsq_s32 (int32x4_t __a);  
 /*******************************************Count leading zeros*************************/  
-/*--正常指令, vclz -> ; counts the number of consecutive zeros, starting from the most 
-significant bit, in each element in a vector, and places the count in result vector.--*/  
+/*--正常指令, vclz -> ;
+计算向量中每个元素从最高位开始的连续零的数量，并将计数放入结果向量中。
+--*/  
 int8x8_t vclz_s8 (int8x8_t __a);  
 int16x4_t vclz_s16 (int16x4_t __a);  
 int32x2_t vclz_s32 (int32x2_t __a);  
@@ -1228,28 +1229,40 @@ uint8x16_t vclzq_u8 (uint8x16_t __a);
 uint16x8_t vclzq_u16 (uint16x8_t __a);  
 uint32x4_t vclzq_u32 (uint32x4_t __a);  
 /*******************************************Count number of set bits********************/  
-/*--正常指令, vcnt -> counts the number of bits that are one in each element in a vector,  
-and places the count in the result vector.--*/  
+/*--正常指令, vcnt -> 
+统计向量中每个元素二进制表示中1的个数，并将结果存储在另一个向量中。
+--*/  
 int8x8_t vcnt_s8 (int8x8_t __a);  
 uint8x8_t vcnt_u8 (uint8x8_t __a);  
 poly8x8_t vcnt_p8 (poly8x8_t __a);  
 int8x16_t vcntq_s8 (int8x16_t __a);  
 uint8x16_t vcntq_u8 (uint8x16_t __a);  
 poly8x16_t vcntq_p8 (poly8x16_t __a);  
+```
+
+
+### 3.13 倒数
+```cpp
 /*****************************************Reciprocal estimate***************************/  
-/*--正常指令, vrecpe -> ; finds an approximate reciprocal of each element in a vector,  
-and places it in the result vector.--*/  
+/*--正常指令, vrecpe -> ;
+在向量中找到每个元素的近似倒数，并将其放入结果向量中
+--*/  
 float32x2_t vrecpe_f32 (float32x2_t __a);  
 uint32x2_t vrecpe_u32 (uint32x2_t __a);  
 float32x4_t vrecpeq_f32 (float32x4_t __a);  
 uint32x4_t vrecpeq_u32 (uint32x4_t __a);  
 /****************************************Reciprocal square-root estimate****************/  
-/*--正常指令, vrsqrte -> ; finds an approximate reciprocal square root of each element 
-in a vector, and places it in the return vector.--*/  
+/*--正常指令, vrsqrte -> ; finds an approximate reciprocal square root of each element in a vector, and places it in the return vector.--*/  
 float32x2_t vrsqrte_f32 (float32x2_t __a);  
 uint32x2_t vrsqrte_u32 (uint32x2_t __a);  
 float32x4_t vrsqrteq_f32 (float32x4_t __a);  
 uint32x4_t vrsqrteq_u32 (uint32x4_t __a);  
+```
+
+
+
+### 3.14 初始化
+```cpp
 /*******************************************Get lanes from a vector*********************/  
 /*--vmov -> r = a[b]; returns the value from the specified lane of a vector. 
 Extract lanes from a vector and put into a register.  
@@ -1389,6 +1402,10 @@ poly8x16_t vdupq_lane_p8 (poly8x8_t __a, const int __b);
 poly16x8_t vdupq_lane_p16 (poly16x4_t __a, const int __b);  
 int64x2_t vdupq_lane_s64 (int64x1_t __a, const int __b);//_mm_unpacklo_epi64  
 uint64x2_t vdupq_lane_u64 (uint64x1_t __a, const int __b);//_mm_unpacklo_epi64  
+```
+
+### 3.15 组合、分割
+```cpp
 /********************************************Combining vectors**************************/  
 /*--长指令, -> r0 = a0, ..., r7 = a7, r8 = b0, ..., r15 = b7; 
 joins two 64-bit vectors into a single 128-bit vector.  
@@ -1432,6 +1449,11 @@ poly8x8_t vget_low_p8 (poly8x16_t __a);
 poly16x4_t vget_low_p16 (poly16x8_t __a);  
 int64x1_t vget_low_s64 (int64x2_t __a);  
 uint64x1_t vget_low_u64 (uint64x2_t __a);  
+```
+
+
+### 3.16 类型转化
+```cpp
 /****************************************************Conversions************************/  
 /*--1、Convert from float: vcvt ->, convert from floating-point to integer.--*/  
 int32x2_t vcvt_s32_f32 (float32x2_t __a);  
@@ -1455,17 +1477,16 @@ float32x4_t vcvtq_n_f32_u32 (uint32x4_t __a, const int __b);
 float16x4_t vcvt_f16_f32(float32x4_t a);  
 float32x4_t vcvt_f32_f16(float16x4_t a);  
 /*************************************************Move**********************************/  
-/*--1、Vector narrow integer(窄指令): vmovn -> ri = ai[0...8]; copies the least  
-significant half of each element of a quadword vector into  
-the corresponding elements of a doubleword vector.--*/  
+/*--1、Vector narrow integer(窄指令): vmovn -> ri = ai[0...8];
+将a向量的一半/最低有效位/复制到dst向量的相应元素中。
+--*/  
 int8x8_t vmovn_s16 (int16x8_t __a);  
 int16x4_t vmovn_s32 (int32x4_t __a);  
 int32x2_t vmovn_s64 (int64x2_t __a);  
 uint8x8_t vmovn_u16 (uint16x8_t __a);  
 uint16x4_t vmovn_u32 (uint32x4_t __a);  
 uint32x2_t vmovn_u64 (uint64x2_t __a);  
-/*--2、Vector long move(长指令): vmovl -> sign extends or zero extends each element 
-in a doubleword vector to twice its original length, 
+/*--2、Vector long move(长指令): vmovl -> sign extends or zero extends each element in a doubleword vector to twice its original length, 
 and places the results in a quadword vector.--*/  
 int16x8_t vmovl_s8 (int8x8_t __a);//_mm_cvtepi8_epi16  
 int32x4_t vmovl_s16 (int16x4_t __a);//_mm_cvtepi16_epi32  
@@ -1492,9 +1513,12 @@ The elements in the operand are signed and the elements in the result are unsign
 uint8x8_t vqmovun_s16 (int16x8_t __a);//_mm_packus_epi16  
 uint16x4_t vqmovun_s32 (int32x4_t __a);//_mm_packus_epi32  
 uint32x2_t vqmovun_s64 (int64x2_t __a);  
+```
+
+### 3.17 查表
+```cpp
 /******************************************************Table lookup*********************/  
-/*--1、Table lookup: vtbl -> uses byte indexes in a control vector to look up byte  
-values in a table and generate a new vector. Indexes out of range return 0.  
+/*--1、Table lookup: vtbl -> uses byte indexes in a control vector to look up byte values in a table and generate a new vector. Indexes out of range return 0.  
 The table is in Vector1 and uses one(or two or three or four)D registers.--*/  
 int8x8_t vtbl1_s8 (int8x8_t __a, int8x8_t __b);  
 uint8x8_t vtbl1_u8 (uint8x8_t __a, uint8x8_t __b);  
@@ -1733,13 +1757,23 @@ third vector.If any of the results overflow,
 they are saturated and the sticky QC flag is set.--*/  
 int32x4_t vqdmlsl_lane_s16 (int32x4_t __a, int16x4_t __b, int16x4_t __c, const int __d);  
 int64x2_t vqdmlsl_lane_s32 (int64x2_t __a, int32x2_t __b, int32x2_t __c, const int __d);  
+```
+
+
+### 3.xx Vector ext
+```cpp
 /*****************************************************Vector extract********************/  
-/*--Vector extract: vext -> extracts n elements from the lower end of the second operand 
-vector and the remaining elements from the higher end of the first, and combines them to 
-form the result vector. The elements from the second operand are placed in the most  
-significant part of the result vector.The elements from the first operand are placed in 
-the least significant part of the result vector.This intrinsic cycles the elements 
-through the lanes if the two input vectors are the same.--*/  
+/*--Vector extract: vext ->
+从第二操作数head提取c个元素，从第一个操作数的tail提取剩余的
+dst = [....an-1, an][b0,b1...] = [an-1,an,b0,b1]
+int main() {
+  uint8x8_t a = {0, 1, 2, 3, 4, 5, 6, 7};
+  uint8x8_t b = {8, 9, 10, 11, 12, 13, 14, 15};
+  uint8x8_t result = vext_u8(a, b, 3);
+  // result is {3, 4, 5, 6, 7, 8, 9, 10}
+  return 0;
+}
+--*/  
 int8x8_t vext_s8 (int8x8_t __a, int8x8_t __b, const int __c);  
 int16x4_t vext_s16 (int16x4_t __a, int16x4_t __b, const int __c);  
 int32x2_t vext_s32 (int32x2_t __a, int32x2_t __b, const int __c);  
@@ -1763,8 +1797,7 @@ uint64x2_t vextq_u64 (uint64x2_t __a, uint64x2_t __b, const int __c);//_mm_align
 poly8x16_t vextq_p8 (poly8x16_t __a, poly8x16_t __b, const int __c);//_mm_alignr_epi8  
 poly16x8_t vextq_p16 (poly16x8_t __a, poly16x8_t __b, const int __c);//_mm_alignr_epi8  
 /****************************************************Reverse elements*******************/  
-/*--1、Reverse vector elements (swap endianness): vrev64 -> reverses the order of 8-bit,  
-16-bit, or 32-bit elements within each doubleword of the vector,  
+/*--1、Reverse vector elements (swap endianness): vrev64 -> reverses the order of 8-bit, 16-bit, or 32-bit elements within each doubleword of the vector,  
 and places the result in the corresponding destination vector.--*/  
 int8x8_t vrev64_s8 (int8x8_t __a);  
 int16x4_t vrev64_s16 (int16x4_t __a);  
@@ -1808,10 +1841,12 @@ poly8x8_t vrev16_p8 (poly8x8_t __a);
 int8x16_t vrev16q_s8 (int8x16_t __a);  
 uint8x16_t vrev16q_u8 (uint8x16_t __a);  
 poly8x16_t vrev16q_p8 (poly8x16_t __a);  
+```
+
+### 3.xx Bit Select
+```cpp
 /**********************************************************Bitwise Select***************/  
-/*--Bitwise Select: vbsl -> selects each bit for the destination from the first operand  
-if the corresponding bit of the destination is 1,  
-or from the second operand if the corresponding bit of the destination is 0.--*/  
+/*--Bitwise Select: vbsl -> selects each bit for the dst from __a if the corresponding bit of the dst is 1, or from the __b if the corresponding bit of the destination is 0.--*/  
 int8x8_t vbsl_s8 (uint8x8_t __a, int8x8_t __b, int8x8_t __c);  
 int16x4_t vbsl_s16 (uint16x4_t __a, int16x4_t __b, int16x4_t __c);  
 int32x2_t vbsl_s32 (uint32x2_t __a, int32x2_t __b, int32x2_t __c);  
@@ -1897,6 +1932,11 @@ uint16x8x2_t vuzpq_u16 (uint16x8_t __a, uint16x8_t __b);
 uint32x4x2_t vuzpq_u32 (uint32x4_t __a, uint32x4_t __b);  
 poly8x16x2_t vuzpq_p8 (poly8x16_t __a, poly8x16_t __b);  
 poly16x8x2_t vuzpq_p16 (poly16x8_t __a, poly16x8_t __b);  
+```
+
+
+### 3.xx load and store
+```cpp
 /*********************************************************Load**************************/  
 /*--1、Load a single vector from memory: vld1 -> loads a vector from memory.--*/  
 int8x8_t vld1_s8 (const int8_t * __a);  
@@ -2331,6 +2371,11 @@ void vst4q_lane_f32 (float32_t * __a, float32x4x4_t __b, const int __c);
 void vst4q_lane_u16 (uint16_t * __a, uint16x8x4_t __b, const int __c);  
 void vst4q_lane_u32 (uint32_t * __a, uint32x4x4_t __b, const int __c);  
 void vst4q_lane_p16 (poly16_t * __a, poly16x8x4_t __b, const int __c);  
+```
+
+
+### 3.xx 类型转化/不改变数组中的值
+```cpp
 /*********************************Reinterpret casts(type conversion)********************/  
 /*--convert between types: vreinterpret -> treats a vector as having a different  
 datatype, without changing its value.--*/  
