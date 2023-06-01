@@ -1,6 +1,5 @@
 {
-  "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "baseFontSize": 27
+  "interfaceFontFamily": "Hack Nerd Font",
+  "textFontFamily": "Hack Nerd Font",
+  "theme": "moonstone"
 }
