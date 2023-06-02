@@ -2,7 +2,6 @@
   "dataview",
   "calendar",
   "obsidian-excalidraw-plugin",
-  "obsidian-minimal-settings",
-  "obsidian-hider",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "obsidian-minimal-settings"
 ]

@@ -19,9 +19,7 @@ https://pcl.readthedocs.io/projects/tutorials/en/master/how_features_work.html#h
 ![[Pasted image 20230602145252.png]]
 
 The most useful example when **setSearchSurface()** should be used, is when we have a very dense input dataset, but we do not want to estimate features at all the points in it, but rather at some keypoints discovered using the methods in pcl_keypoints,or
-at a soensampled vesion os the cloud. in this case we pass the downsampled input via setInputCloud(), and the original data as set SearchSurfase.
-
-## 法线估计例子
+at a soensampled vesion os the cloud. in this case we pass the downsampled input via setInputCloud(), and the original data as set SearchSurfase. ## 法线估计例子
 
 The following code snippet will estimate a set of surface normals for all the points in the input dataset.
 

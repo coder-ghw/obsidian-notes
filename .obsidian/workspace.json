@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
-                "mode": "source",
+                "file": "02-学习/03-工具/00-Onedrive-ubuntu_setting.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5,
-    "collapsed": true
+    "width": 368.5
   },
   "right": {
     "id": "09a64064e082fa9f",
@@ -79,6 +78,7 @@
       {
         "id": "0ad4a63e97bc7956",
         "type": "tabs",
+        "dimension": 68.22867853795688,
         "children": [
           {
             "id": "2f302aad57ee4dce",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
+                "file": "02-学习/03-工具/00-Onedrive-ubuntu_setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
+                "file": "02-学习/03-工具/00-Onedrive-ubuntu_setting.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md"
+                "file": "02-学习/03-工具/00-Onedrive-ubuntu_setting.md"
               }
             }
           },
@@ -133,6 +133,7 @@
       {
         "id": "c8403b260b795635",
         "type": "tabs",
+        "dimension": 31.77132146204311,
         "children": [
           {
             "id": "817bf0d95567755c",
@@ -173,22 +174,28 @@
   },
   "active": "925821d59e968dd5",
   "lastOpenFiles": [
-    "02-学习/00-cv3d/cv3d.md",
+    "02-学习/00-cv3d/00-pcl/pcl-02-Estimating Surface Normals in a PointCloud.md",
     "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
+    "03-工作/aurora900/00-奇点手指消失的问题.md",
+    "03-工作/aurora900/images/Pasted_image_20230602162851.png",
+    "03-工作/aurora900/images",
+    "02-学习/02-性能/00-ArmNeon.md",
+    "02-学习/02-性能/01-Aarch64 overview.md",
+    "Pasted.md",
     "03-工作/nebula200/001-适配dsp接口.md",
     "03-工作/nebula200/000-滤波算法改进.md",
+    "03-工作/nebula200/002-ncc neon 优化.md",
+    "03-工作/aurora900",
+    "02-学习/00-cv3d/cv3d.md",
     "03-工作/nebula200/images/Pasted image 20230522193102.png",
     "03-工作/nebula200/images/Pasted Image 20230525104712_734.png",
     "02-学习/00-cv3d/00-pcl/pcl-00-io.md",
     "02-学习/05-ml&dl",
-    "02-学习/02-性能/00-ArmNeon.md",
     "02-学习/00-cv3d/00-pcl/images",
     "02-学习/00-cv3d/00-pcl/images/Pasted image 20230602145252.png",
     "05-days/2023-06-01.md",
     "02-学习/04-刷题/00-套路模板.md",
     "02-学习/04-刷题",
-    "02-学习/02-性能/01-Aarch64 overview.md",
-    "03-工作/nebula200/002-ncc neon 优化.md",
     "04-临时/tools.md",
     "04-临时",
     "02-学习/01-cv2d/cv2d.md",
@@ -203,15 +210,11 @@
     "02-学习/03-工具/工具.md",
     "01-周报/2023-W21.md",
     "05-days/2023-05-24.md",
-    "01-周报/2023-W20.md",
-    "00-模板/template_days.md",
     "02-学习/03-工具/工具.md.partial",
     "02-学习/00-cv3d/cv3d.md.partial",
     "02-学习/00-cv3d/00-pcl/pcl.md.partial",
     "02-学习/00-cv3d/00-pcl/00-pcl-io.md.partial",
-    "02-学习/02-性能/00-ArmNeon.md.partial",
     "02-学习/02-性能/images/Pasted image 20230526173007.png",
-    "02-学习/03-工具",
     "02-学习/02-性能/images/Pasted image 20230525185555.png",
     "02-学习/02-性能/images/Pasted image 20230525190349.png",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
@@ -219,7 +222,6 @@
     "未命名.canvas",
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "Excalidraw/Scripts/Downloaded/Palette loader.svg",
-    "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.svg",
     "Untitled.canvas"
   ]
 }
