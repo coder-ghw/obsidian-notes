@@ -1,5 +1,8 @@
 {
   "interfaceFontFamily": "Hack Nerd Font",
   "textFontFamily": "Hack Nerd Font",
-  "theme": "moonstone"
+  "theme": "obsidian",
+  "accentColor": "",
+  "baseFontSize": 19,
+  "cssTheme": "Minimal"
 }

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "73e352b97901201d",
+        "id": "92a9ffc5b949f479",
         "type": "tabs",
         "children": [
           {
-            "id": "f3bd381aceec47f9",
+            "id": "925821d59e968dd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-学习/00-cv3d/cv3d.md",
+                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 262.5
+    "width": 262.5,
+    "collapsed": true
   },
   "right": {
     "id": "09a64064e082fa9f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-学习/00-cv3d/cv3d.md",
+                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-学习/00-cv3d/cv3d.md",
+                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -114,18 +115,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-学习/00-cv3d/cv3d.md"
+                "file": "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md"
               }
             }
           },
           {
             "id": "b5a0fdeaf46ed715",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
+              "state": {}
             }
           }
         ],
@@ -158,7 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 439.5,
+    "width": 355.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -169,20 +168,30 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "meld-encrypt:Create new encrypted note": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "f3bd381aceec47f9",
+  "active": "925821d59e968dd5",
   "lastOpenFiles": [
-    "02-学习/01-cv2d/cv2d.md",
-    "02-学习/02-性能/01-Aarch64 overview.md",
-    "02-学习/02-性能/00-ArmNeon.md",
-    "02-学习/00-cv3d/00-pcl/00-pcl-io.md",
     "02-学习/00-cv3d/cv3d.md",
+    "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
+    "03-工作/nebula200/001-适配dsp接口.md",
+    "03-工作/nebula200/000-滤波算法改进.md",
+    "03-工作/nebula200/images/Pasted image 20230522193102.png",
+    "03-工作/nebula200/images/Pasted Image 20230525104712_734.png",
+    "02-学习/00-cv3d/00-pcl/pcl-00-io.md",
+    "02-学习/05-ml&dl",
+    "02-学习/02-性能/00-ArmNeon.md",
+    "02-学习/00-cv3d/00-pcl/images",
+    "02-学习/00-cv3d/00-pcl/images/Pasted image 20230602145252.png",
     "05-days/2023-06-01.md",
+    "02-学习/04-刷题/00-套路模板.md",
+    "02-学习/04-刷题",
+    "02-学习/02-性能/01-Aarch64 overview.md",
+    "03-工作/nebula200/002-ncc neon 优化.md",
+    "04-临时/tools.md",
+    "04-临时",
+    "02-学习/01-cv2d/cv2d.md",
     "01-周报/2023-W22.md",
     "05-days/2023-05-31.md",
     "02-学习/02-性能/01-Introduction to ARM64 NEON assembly.md",
@@ -196,35 +205,21 @@
     "05-days/2023-05-24.md",
     "01-周报/2023-W20.md",
     "00-模板/template_days.md",
-    "05-days/2023-05-23.md",
     "02-学习/03-工具/工具.md.partial",
     "02-学习/00-cv3d/cv3d.md.partial",
     "02-学习/00-cv3d/00-pcl/pcl.md.partial",
-    "02-学习/00-cv3d/00-pcl/pcl.md",
     "02-学习/00-cv3d/00-pcl/00-pcl-io.md.partial",
-    "02-学习/00-cv3d/00-pcl/toc.md",
     "02-学习/02-性能/00-ArmNeon.md.partial",
     "02-学习/02-性能/images/Pasted image 20230526173007.png",
-    "02-学习/03-工具/toc.md",
-    "02-学习/01-cv2d/toc.md",
     "02-学习/03-工具",
-    "02-学习/01-cv2d",
-    "00-模板",
-    "03-工作/nebula200/002-ncc neon 优化.md",
     "02-学习/02-性能/images/Pasted image 20230525185555.png",
     "02-学习/02-性能/images/Pasted image 20230525190349.png",
-    "02-学习/02-性能/images",
-    "Excalidraw/Drawing 2023-05-25 11.31.54.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Expand rectangles horizontally keep text centered.svg",
-    "03-工作/nebula200/images/Pasted Image 20230525104712_734.png",
-    "03-工作/nebula200/images/Pasted image 20230522193102.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "Excalidraw/Scripts/Downloaded/Organic Line.svg",
     "Excalidraw/Scripts/Downloaded/Palette loader.svg",
     "Excalidraw/Scripts/Downloaded/Set background color of unclosed line object by adding a shadow clone.svg",
-    "Excalidraw/Scripts/Downloaded/Change shape of selected elements.svg",
-    "Excalidraw/Scripts/Downloaded",
     "Untitled.canvas"
   ]
 }
