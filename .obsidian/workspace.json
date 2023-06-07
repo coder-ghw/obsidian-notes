@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8fbf542b81ddd498",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
+                "file": "04-杂项/tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
+                "file": "04-杂项/tools.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md"
+                "file": "04-杂项/tools.md"
               }
             }
           },
@@ -204,11 +194,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "8fbf542b81ddd498",
+  "active": "1be699de81f71074",
   "lastOpenFiles": [
+    "01-周报/2023-W23.md",
+    "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
     "02-学习/04-刷题/套路模板之二叉树.md.partial",
     "03-工作/nebula200/003-tof引导结构光重建/tof引导结构光匹配重建.md",
-    "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
     "03-工作/nebula200/003-tof引导结构光重建/tof重建.canvas",
     "03-工作/nebula200/003-tof引导结构光重建/Drawing 2023-06-06 11.40.20.excalidraw.md",
     "Excalidraw",
@@ -220,7 +211,6 @@
     "02-学习/00-cv3d/00-pcl/images/Pasted image 20230606102804.png",
     "02-学习/00-cv3d/00-pcl/pcl-io-00.md",
     "02-学习/00-cv3d/00-pcl/pcl-features-03-estimate-normal-use-integral-images.md",
-    "01-周报/2023-W23.md",
     "02-学习/00-cv3d/00-pcl/pcl-features-03-estimate-normal-use-integral-images.md.partial",
     "02-学习/00-cv3d/00-pcl/pcl-features-02-Estimating Surface Normals in a PointCloud.md",
     "02-学习/00-cv3d/00-pcl/pcl-features-01-How 3D Features work in PCL.md",
