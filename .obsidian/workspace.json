@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ddf73ab28316f146",
+        "id": "75fe5751e11df9ea",
         "type": "tabs",
         "children": [
           {
-            "id": "f71bf1ad5f3eb15e",
+            "id": "06d9f08ab3194a5b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "03-工作/nebula200/003-tof引导结构光重建/tof引导结构光匹配重建.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "33e59bb86b938e83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03-工作/nebula200/003-tof引导结构光重建/tof引导结构光匹配重建.md",
-                "mode": "source",
-                "source": false
+                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-杂项/tools.md",
+                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-杂项/tools.md",
+                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -128,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-杂项/tools.md"
+                "file": "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md"
               }
             }
           },
@@ -194,12 +179,22 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "1be699de81f71074",
+  "active": "06d9f08ab3194a5b",
   "lastOpenFiles": [
-    "01-周报/2023-W23.md",
+    "03-工作/nebula200/images/Pasted Image 20230607194226_690.png",
+    "03-工作/nebula200/images/0-pipeline.excalidraw.md",
+    "03-工作/nebula200/images/1-ncc_neon.excalidraw.md",
+    "03-工作/nebula200/images/Pasted image 20230522193102.png",
+    "03-工作/nebula200/images/Pasted Image 20230525104712_734.png",
+    "03-工作/nebula200/images/Pasted Image 20230607192052_991.png",
+    "03-工作/nebula200/images/Pasted Image 20230607192123_993.png",
     "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
-    "02-学习/04-刷题/套路模板之二叉树.md.partial",
+    "02-学习/04-刷题/目录.md",
+    "02-学习/04-刷题/套路模板之二叉树.md",
     "03-工作/nebula200/003-tof引导结构光重建/tof引导结构光匹配重建.md",
+    "04-杂项/tools.md",
+    "01-周报/2023-W23.md",
+    "02-学习/04-刷题/套路模板之二叉树.md.partial",
     "03-工作/nebula200/003-tof引导结构光重建/tof重建.canvas",
     "03-工作/nebula200/003-tof引导结构光重建/Drawing 2023-06-06 11.40.20.excalidraw.md",
     "Excalidraw",
@@ -226,22 +221,12 @@
     "03-工作/nebula200/000-滤波算法改进.md",
     "03-工作/nebula200/001-适配dsp接口.md",
     "03-工作/nebula200/002-ncc neon 优化.md",
-    "02-学习/04-刷题/目录.md",
-    "02-学习/04-刷题/套路模板之二叉树.md",
-    "02-学习/04-刷题/images/Pasted image 20230604215404.png",
     "02-学习/04-刷题/images/Pasted image 20230604215404.png.partial",
     "02-学习/04-刷题/images",
     "02-学习/04-刷题/目录.md.partial",
     "01-周报/2023-W23.md.partial",
     "00-模板/template_week.md",
     "00-模板/template_week.md.partial",
-    "02-学习/03-工具/00-Onedrive-ubuntu_setting.md",
-    "03-工作/aurora900/images/Pasted_image_20230602162851.png",
-    "02-学习/02-性能/00-ArmNeon.md",
-    "02-学习/02-性能/01-Aarch64 overview.md",
-    "03-工作/nebula200/images/Pasted image 20230522193102.png",
-    "03-工作/nebula200/images/Pasted Image 20230525104712_734.png",
-    "02-学习/00-cv3d/00-pcl/images/Pasted image 20230602145252.png",
     "未命名 1.canvas",
     "Untitled.canvas"
   ]
