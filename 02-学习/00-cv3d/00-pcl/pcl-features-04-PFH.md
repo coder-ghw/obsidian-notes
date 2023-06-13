@@ -56,3 +56,44 @@ The default PFH implementation uses 5 binning subdivisions (e.g., each of the fo
   pfh.compute (*pfhs);
 }
 ```
+
+其中pcl::PFHSignature125为直方图输出结果类型，125的含义是 这个类中特征选取了三个角度值，而没有距离信息（需要距离信息需要computePairFeatures方法计算），且角度在构建直方图时默认采用了5个间隔(bin)，通俗来讲就是 有三个角度，每个角度有5份，穷举可能出现的结果构建直方图，即每个角度选一份出来组成一块，排列组合A15 * A15 * A15 即文档中所说的5 * 5 * 5=5^3
+
+![[Pasted image 20230608192945.png|600]]
+
+
+### FPFH
+
+相比PFH，FPFH为了计算快速，计算时没有使用邻域网络交叉计算，而是通过邻域各点的SPFH加权得到结果。SPFH即针对某点，只计算此点与邻域间的特征角度和距离信息，不必计算邻域内点间的特征信息。
+```cpp
+#include <pcl/point_types.h>
+#include <pcl/features/fpfh.h>
+
+{
+  pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
+  pcl::PointCloud<pcl::Normal>::Ptr normals (new pcl::PointCloud<pcl::Normal> ());
+
+  ... read, pass in or create a point cloud with normals ...
+  ... (note: you can create a single PointCloud<PointNormal> if you want) ...
+
+  // FPFH估计类，其中pcl::FPFHSignature33为输出类型为直方图数据
+  pcl::FPFHEstimation<pcl::PointXYZ, pcl::Normal, pcl::FPFHSignature33> fpfh;
+  fpfh.setInputCloud (cloud);
+  fpfh.setInputNormals (normals);
+ 
+  //以下类似于FPH代码
+  pcl::search::KdTree<PointXYZ>::Ptr tree (new pcl::search::KdTree<PointXYZ>);
+  fpfh.setSearchMethod (tree);
+
+ //输出结果
+  pcl::PointCloud<pcl::FPFHSignature33>::Ptr fpfhs (new pcl::PointCloud<pcl::FPFHSignature33> ());
+
+  fpfh.setRadiusSearch (0.05);
+
+  fpfh.compute (*fpfhs);
+
+  // fpfhs->size () should have the same size as the input cloud->size ()*
+}
+```
+
+- 其中`pcl::FPFHSignature33`，33的含义是3个角度，默认分割11份，不像PFH125那样穷举，而是直接独立拼凑到一起，即11+11+11=33

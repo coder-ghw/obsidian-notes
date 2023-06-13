@@ -5,6 +5,6 @@
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
   "weeklyNoteTemplate": "00-模板/template_week",
-  "weeklyNoteFolder": "",
+  "weeklyNoteFolder": "01-周报",
   "localeOverride": "system-default"
 }
