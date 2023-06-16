@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-周报/2023-W24.md",
+                "file": "02-学习/00-cv3d/03-cgal/Surface Reconstruction from Point Clouds.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "right": {
     "id": "09a64064e082fa9f",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-周报/2023-W24.md",
+                "file": "02-学习/00-cv3d/03-cgal/Surface Reconstruction from Point Clouds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-周报/2023-W24.md",
+                "file": "02-学习/00-cv3d/03-cgal/Surface Reconstruction from Point Clouds.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -115,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-周报/2023-W24.md"
+                "file": "02-学习/00-cv3d/03-cgal/Surface Reconstruction from Point Clouds.md"
               }
             }
           },
@@ -166,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 1008.5
+    "width": 1008.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,9 +184,19 @@
   },
   "active": "06d9f08ab3194a5b",
   "lastOpenFiles": [
+    "03-工作/nebula200/HQVGA/投射评估.md",
+    "03-工作/nebula200/HQVGA/投射评估.md.partial",
+    "03-工作/nebula200/HQVGA",
+    "02-学习/00-cv3d/03-cgal/Pasted image 20230614194916.png",
+    "02-学习/00-cv3d/01-vedo/简介.md",
+    "02-学习/00-cv3d/03-cgal/Surface Reconstruction from Point Clouds.md",
+    "02-学习/00-cv3d/03-cgal",
+    "05-days/2023-06-14.md",
+    "02-学习/00-cv3d/02-open3d",
+    "01-周报/2023-W24.md",
+    "02-学习/00-cv3d/01-vedo",
     "03-工作/nebula200/003-tof引导结构光重建/tof引导结构光匹配重建.md",
     "03-工作/nebula200/003-tof引导结构光重建/tof重建.excalidraw.md",
-    "01-周报/2023-W24.md",
     "01-周报/2023-W23.md",
     "05-days/2023-06-12.md",
     "03-工作/nebula200/002-ncc neon 优化.md",
@@ -211,7 +223,6 @@
     "03-工作/nebula200/003-tof引导结构光重建",
     "02-学习/00-cv3d/cv3d.md",
     "02-学习/00-cv3d/00-pcl/images/Pasted image 20230606103503.png",
-    "02-学习/00-cv3d/00-pcl/images/Pasted image 20230606102839.png",
     "02-学习/00-cv3d/00-pcl/pcl-io-00.md",
     "02-学习/00-cv3d/00-pcl/pcl-features-03-estimate-normal-use-integral-images.md",
     "02-学习/00-cv3d/00-pcl/pcl-features-03-estimate-normal-use-integral-images.md.partial",
@@ -220,15 +231,6 @@
     "05-days/2023-06-05.md.partial",
     "02-学习/00-cv3d/00-pcl/pcl-02-Estimating Surface Normals in a PointCloud.md",
     "05-days/2023-06-05.md",
-    "03-工作/aurora900/00-奇点手指消失的问题.md",
-    "02-学习/00-cv3d/00-pcl/pcl-01-How 3D Features work in PCL.md",
-    "02-学习/00-cv3d/00-pcl/pcl-00-io.md",
-    "01-周报/2023-W22.md",
-    "02-学习/04-刷题/images/Pasted image 20230604215404.png.partial",
-    "02-学习/04-刷题/images",
-    "02-学习/04-刷题/目录.md.partial",
-    "01-周报/2023-W23.md.partial",
-    "00-模板/template_week.md.partial",
     "未命名 1.canvas",
     "Untitled.canvas"
   ]
